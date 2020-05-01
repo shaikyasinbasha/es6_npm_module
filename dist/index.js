@@ -91,11 +91,11 @@ module.exports =
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! exports provided: choose */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"choose\", function() { return choose; });\n/* harmony import */ var _platform__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./platform */ \"./src/platform.js\");\n\nconst choose = {\n  platform: _platform__WEBPACK_IMPORTED_MODULE_0__\n};\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _platform__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./platform */ \"./src/platform.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({ ..._platform__WEBPACK_IMPORTED_MODULE_0__\n});\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

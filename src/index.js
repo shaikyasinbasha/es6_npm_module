@@ -1,5 +1,5 @@
 import * as platform from './platform';
 
-export const choose = {
-	platform
+export default {
+	...platform
 };
