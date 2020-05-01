@@ -1,7 +1,9 @@
 const path = require('path');
+var glob = require("glob");
 
 module.exports = {
-  entry: './src/index.js',
+  //entry: './src/index.js',
+  entry: glob.sync("./src/**/*.js"),
   output: {
     path: path.resolve('dist'),
     filename: 'index.js',

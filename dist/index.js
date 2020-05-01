@@ -82,22 +82,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _platform__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./platform */ \"./src/platform.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({ ..._platform__WEBPACK_IMPORTED_MODULE_0__\n});\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
 
 /***/ "./src/platform.js":
 /*!*************************!*\
@@ -108,6 +96,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pla
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"studentData\", function() { return studentData; });\nconst platformData = () => {\n  console.log(\"----------platformData---------\");\n};\n\nconst studentData = () => {\n  console.log(\"---------StudentData---------\");\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (platformData);\n\n//# sourceURL=webpack:///./src/platform.js?");
+
+/***/ }),
+
+/***/ 0:
+/*!*******************************!*\
+  !*** multi ./src/platform.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__(/*! ./src/platform.js */\"./src/platform.js\");\n\n\n//# sourceURL=webpack:///multi_./src/platform.js?");
 
 /***/ })
 
