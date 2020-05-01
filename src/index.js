@@ -1,2 +1,1 @@
-import './platform';
 import './api';
