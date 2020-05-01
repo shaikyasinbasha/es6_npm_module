@@ -87,6 +87,18 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/api.js":
+/*!********************!*\
+  !*** ./src/api.js ***!
+  \********************/
+/*! exports provided: authanication */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"authanication\", function() { return authanication; });\nconst authanication = async () => {\n  let promise = new Promise((resolve, reject) => {\n    setTimeout(() => resolve(\"done!\"), 2000);\n  });\n  let result = await promise; // wait until the promise resolves (*)\n\n  return result;\n};\n\n//# sourceURL=webpack:///./src/api.js?");
+
+/***/ }),
+
 /***/ "./src/platform.js":
 /*!*************************!*\
   !*** ./src/platform.js ***!
@@ -100,13 +112,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ }),
 
 /***/ 0:
-/*!*******************************!*\
-  !*** multi ./src/platform.js ***!
-  \*******************************/
+/*!********************************************!*\
+  !*** multi ./src/api.js ./src/platform.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! ./src/platform.js */\"./src/platform.js\");\n\n\n//# sourceURL=webpack:///multi_./src/platform.js?");
+eval("__webpack_require__(/*! ./src/api.js */\"./src/api.js\");\nmodule.exports = __webpack_require__(/*! ./src/platform.js */\"./src/platform.js\");\n\n\n//# sourceURL=webpack:///multi_./src/api.js_./src/platform.js?");
 
 /***/ })
 
