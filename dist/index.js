@@ -103,11 +103,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*!*************************!*\
   !*** ./src/platform.js ***!
   \*************************/
-/*! exports provided: studentData, default */
+/*! exports provided: platformData, studentData */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"studentData\", function() { return studentData; });\nconst platformData = () => {\n  console.log(\"----------platformData---------\");\n};\n\nconst studentData = () => {\n  console.log(\"---------StudentData---------\");\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (platformData);\n\n//# sourceURL=webpack:///./src/platform.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"platformData\", function() { return platformData; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"studentData\", function() { return studentData; });\nconst platformData = () => {\n  console.log(\"----------platformData---------\");\n};\nconst studentData = () => {\n  console.log(\"---------StudentData---------\");\n};\n\n//# sourceURL=webpack:///./src/platform.js?");
 
 /***/ }),
 
