@@ -91,11 +91,11 @@ module.exports =
 /*!********************!*\
   !*** ./src/api.js ***!
   \********************/
-/*! exports provided: authanication */
+/*! exports provided: studentData */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"authanication\", function() { return authanication; });\nconst authanication = async () => {\n  let promise = new Promise((resolve, reject) => {\n    setTimeout(() => resolve(\"done!\"), 2000);\n  });\n  let result = await promise; // wait until the promise resolves (*)\n\n  return result;\n};\n\n//# sourceURL=webpack:///./src/api.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"studentData\", function() { return studentData; });\n/*export const authanication = async () => {\r\n  let promise = new Promise((resolve, reject) => {\r\n    setTimeout(() => resolve(\"done!\"), 2000)\r\n  });\r\n\r\n  let result = await promise; // wait until the promise resolves (*)\r\n\r\n  return result; \r\n}*/\nconst studentData = () => {\n  console.log(\"---------StudentData---------\");\n};\n\n//# sourceURL=webpack:///./src/api.js?");
 
 /***/ }),
 
@@ -103,11 +103,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*!*************************!*\
   !*** ./src/platform.js ***!
   \*************************/
-/*! exports provided: platformData, studentData */
+/*! exports provided: platformData */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"platformData\", function() { return platformData; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"studentData\", function() { return studentData; });\nconst platformData = () => {\n  console.log(\"----------platformData---------\");\n};\nconst studentData = () => {\n  console.log(\"---------StudentData---------\");\n};\n\n//# sourceURL=webpack:///./src/platform.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"platformData\", function() { return platformData; });\nconst platformData = () => {\n  console.log(\"----------platformData---------\");\n};\n\n//# sourceURL=webpack:///./src/platform.js?");
 
 /***/ }),
 
