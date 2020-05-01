@@ -18,9 +18,8 @@
     "url": "https://github.com/shaikyasinbasha/es6_npm_module/issues"
   },
   "homepage": "https://github.com/shaikyasinbasha/es6_npm_module#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.9.6",
-    "D": "^1.0.0",
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
