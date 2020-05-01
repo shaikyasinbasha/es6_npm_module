@@ -3,7 +3,8 @@ var glob = require("glob");
 
 module.exports = {
   //entry: './src/index.js',
-  entry: glob.sync("./src/*.js"),
+  //entry: glob.sync("./src/**/*.js"),
+  entry: () => new Promise((resolve) => resolve(['./src/api.js', './src/platform.js'])),
   output: {
     path: path.resolve('dist'),
     filename: 'index.js',
