@@ -113,12 +113,12 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ 0:
 /*!********************************************!*\
-  !*** multi ./src/api.js ./src/platform.js ***!
+  !*** multi ./src/platform.js ./src/api.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/api.js */\"./src/api.js\");\nmodule.exports = __webpack_require__(/*! ./src/platform.js */\"./src/platform.js\");\n\n\n//# sourceURL=webpack:///multi_./src/api.js_./src/platform.js?");
+eval("__webpack_require__(/*! ./src/platform.js */\"./src/platform.js\");\nmodule.exports = __webpack_require__(/*! ./src/api.js */\"./src/api.js\");\n\n\n//# sourceURL=webpack:///multi_./src/platform.js_./src/api.js?");
 
 /***/ })
 
