@@ -82,7 +82,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -99,6 +99,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! exports provided: list */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"list\", function() { return list; });\n/* harmony import */ var _platform__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./platform */ \"./src/platform.js\");\n/* harmony import */ var _api__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./api */ \"./src/api.js\");\n\n\nconst list = { ..._platform__WEBPACK_IMPORTED_MODULE_0__,\n  ..._api__WEBPACK_IMPORTED_MODULE_1__\n};\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
 /***/ "./src/platform.js":
 /*!*************************!*\
   !*** ./src/platform.js ***!
@@ -108,17 +120,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"platformData\", function() { return platformData; });\nconst platformData = () => {\n  console.log(\"----------platformData---------\");\n};\n\n//# sourceURL=webpack:///./src/platform.js?");
-
-/***/ }),
-
-/***/ 0:
-/*!********************************************!*\
-  !*** multi ./src/platform.js ./src/api.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("__webpack_require__(/*! ./src/platform.js */\"./src/platform.js\");\nmodule.exports = __webpack_require__(/*! ./src/api.js */\"./src/api.js\");\n\n\n//# sourceURL=webpack:///multi_./src/platform.js_./src/api.js?");
 
 /***/ })
 
