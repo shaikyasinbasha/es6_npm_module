@@ -1,5 +1,5 @@
-const choose = () => {
-	console.log("----index.js--------")
-}
+import * as platform from './platform';
 
-export default choose;
+export const choose = {
+	platform
+};
